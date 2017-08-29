@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\InclCorr">
+      <UniqueIdentifier>{cf13c88f-d991-4a70-b615-ed7577a94516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InclCorr">
+      <UniqueIdentifier>{1b535f0f-7825-4151-927a-3e682be11807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Segmentation">
+      <UniqueIdentifier>{c4724a20-3a4a-4bf1-9737-9b424bd9d2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Segmentation">
+      <UniqueIdentifier>{1ecf1f5e-2c80-4ba4-a0c3-d711240ee411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OCR">
+      <UniqueIdentifier>{bb50d7e7-4677-4daa-93a9-0e37afb46c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OCR">
+      <UniqueIdentifier>{8341c1d9-89b8-4fcc-ba02-362eeadbd5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FindString">
+      <UniqueIdentifier>{ca228c3e-1fd4-4beb-811c-b7362be35dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FindString">
+      <UniqueIdentifier>{5f300ae4-a612-4acc-8f88-c1caaf164daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Binarization">
+      <UniqueIdentifier>{1efedc84-240e-46a6-82c3-43271f51c650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Binarization">
+      <UniqueIdentifier>{128322a5-3599-4e38-ad5e-486b723d33aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OCREngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InclCorr\InclCorr.h">
+      <Filter>Header Files\InclCorr</Filter>
+    </ClInclude>
+    <ClInclude Include="Segmentation\Segmentation.h">
+      <Filter>Header Files\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="OCR\OCR.h">
+      <Filter>Header Files\OCR</Filter>
+    </ClInclude>
+    <ClInclude Include="Segmentation\NoiseReduction.h">
+      <Filter>Header Files\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="FindString\FindString.h">
+      <Filter>Header Files\FindString</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractBlack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Binarization\Binarization.h">
+      <Filter>Header Files\Binarization</Filter>
+    </ClInclude>
+    <ClInclude Include="FindString\Array.h">
+      <Filter>Header Files\FindString</Filter>
+    </ClInclude>
+    <ClInclude Include="FindString\FilterContours.h">
+      <Filter>Header Files\FindString</Filter>
+    </ClInclude>
+    <ClInclude Include="FindString\RemoveNoise.h">
+      <Filter>Header Files\FindString</Filter>
+    </ClInclude>
+    <ClInclude Include="FindString\PosterEdge.h">
+      <Filter>Header Files\FindString</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OCREngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InclCorr\InclCorr.cpp">
+      <Filter>Source Files\InclCorr</Filter>
+    </ClCompile>
+    <ClCompile Include="Segmentation\Segmentation.cpp">
+      <Filter>Source Files\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="OCR\OCR.cpp">
+      <Filter>Source Files\OCR</Filter>
+    </ClCompile>
+    <ClCompile Include="Segmentation\NoiseReduction.cpp">
+      <Filter>Source Files\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="FindString\FindString.cpp">
+      <Filter>Source Files\FindString</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractBlack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Binarization\Binarization.cpp">
+      <Filter>Source Files\Binarization</Filter>
+    </ClCompile>
+    <ClCompile Include="FindString\Array.cpp">
+      <Filter>Source Files\FindString</Filter>
+    </ClCompile>
+    <ClCompile Include="FindString\FilterContours.cpp">
+      <Filter>Source Files\FindString</Filter>
+    </ClCompile>
+    <ClCompile Include="FindString\RemoveNoise.cpp">
+      <Filter>Source Files\FindString</Filter>
+    </ClCompile>
+    <ClCompile Include="FindString\PosterEdge.cpp">
+      <Filter>Source Files\FindString</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

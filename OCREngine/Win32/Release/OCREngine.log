@@ -1,0 +1,19 @@
+﻿Build started 2017/3/25 21:32:02.
+     1>Project "H:\EngineTestere\EngineTester\OCREngine\OCREngine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\OCREngine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         OCREngine.vcxproj -> H:\EngineTestere\EngineTester\bin\Win32\Release\OCREngine.dll
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\OCREngine.unsuccessfulbuild".
+         Touching "Win32\Release\OCREngine.lastbuildstate".
+     1>Done Building Project "H:\EngineTestere\EngineTester\OCREngine\OCREngine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07
